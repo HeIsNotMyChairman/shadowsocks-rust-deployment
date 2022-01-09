@@ -1,0 +1,32 @@
+[
+	{
+		"password": "breakwall",
+		"method": "chacha20-ietf-poly1305",
+		"server": "your.domain.com",
+		"server_port": 80,
+		"plugin": "v2ray-plugin",
+		"plugin_opts": "host=your.domain.com"
+	},
+	{
+		"password": "breakwall",
+		"method": "chacha20-ietf-poly1305",
+		"server": "your.domain.com",
+		"server_port": 443,
+		"plugin": "v2ray-plugin",
+		"plugin_opts": "mode=quic;host=your.domain.com"
+	},
+	{
+		"password": "breakwall",
+		"method": "chacha20-ietf-poly1305",
+		"server": "your.domain.com",
+		"server_port": 443,
+		"plugin": "v2ray-plugin",
+		"plugin_opts": "tls;host=your.domain.com"
+	},
+	{
+		"password": "breakwall",
+		"method": "chacha20-ietf-poly1305",
+		"server": "your.domain.com",
+		"server_port": 10443
+	}
+]
